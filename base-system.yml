@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PHP Application
+  description: App to run PHP stuff
+  tags:
+    - php
+    - data
+  links:
+    - url: https://google.com
+      title: Documentation
+      icon: user
+  annotations:
+    backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: atj
+  system: php-master
